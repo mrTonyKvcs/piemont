@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Document;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -15,6 +16,8 @@ class PagesController extends Controller
 
     public function documents()
     {
-        return view('pages.documents');
+        $documents = Document::all();
+
+        return view('pages.documents', compact('documents'));
     }
 }

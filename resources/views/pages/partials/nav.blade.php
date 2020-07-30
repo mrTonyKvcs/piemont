@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top @if(URL::current() == route('pages.documents')) bg-dark @endif">
     <p class="navbar-brand">Piemont Consulting Bt.</p>
     <a class="menu-button">
         <span></span>

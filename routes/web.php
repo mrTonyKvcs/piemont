@@ -33,4 +33,4 @@ Route::group(['prefix' => 'admin', 'middleware' => 'is_admin'], function ()
     Route::post('uj-dokumentum-feltoltese', 'HomeController@uploadDocument')->name('admin.upload-document');
 });
 
-Auth::routes();
+Auth::routes(['register' => false]);

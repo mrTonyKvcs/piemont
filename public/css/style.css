@@ -2528,6 +2528,7 @@ ul.widget-list li a:hover {
   #menuMb .navbar-nav .nav-item {
     margin-bottom: 0rem !important; }
   #menuMb .navbar-nav .nav-link {
+    text-transform: uppercase;
     font-size: 1rem !important;
     padding: .25rem !important; }
   .about-media .about-media__video {

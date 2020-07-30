@@ -22,6 +22,21 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('pages.documents') }}">@guest{{ trans('site.client-login') }} @else {{ trans('site.documents') }} @endguest</a>
             </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <a class="btn btn-secondary bg-transparent border-0 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ LaravelLocalization::getCurrentLocale() }}
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                            <a class="dropdown-item" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                {{ $localeCode }}
+                            </a>
+                        @endforeach
+                    </div>
+                </div>
+            </li>
         </ul>
     </div>
     <!-- end menuDsk -->
@@ -42,6 +57,21 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('pages.documents') }}">@guest{{ trans('site.client-login') }} @else {{ trans('site.documents') }} @endguest</a>
+            </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <a class="btn btn-secondary bg-transparent border-0 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ LaravelLocalization::getCurrentLocale() }}
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                            <a class="dropdown-item" rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                {{ $localeCode }}
+                            </a>
+                        @endforeach
+                    </div>
+                </div>
             </li>
         </ul>
     </div>

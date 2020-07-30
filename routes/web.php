@@ -13,11 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PagesController@index')->name('pages.index');
+Route::get('/dokumentumok', 'PagesController@documents')->name('pages.documents')->middleware('auth');
 
-Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
+Route::group(['prefix' => 'admin', 'middleware' => 'is_admin'], function () {
     Route::get('/dashboard', 'HomeController@index')->name('home');
 
     Route::post('uj-ugyfel-letrehozasa', 'HomeController@createClient')->name('admin.create-client');

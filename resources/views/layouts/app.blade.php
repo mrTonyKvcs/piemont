@@ -9,6 +9,9 @@
 
         <meta name="description" content="Széles körű szakmai tapasztalattal, több éves gyakorlattal és kiépült kapcsolatrendszerrel rendelkező cégünk vállalja a hozzánk forduló megbízóink professzionális kiszolgálását, eligazodását a pénzügyi, jogi és üzleti életben.">
         <meta name="author" content="Piemont Consulting Bt.">
+
+        <meta name="keywords" content="Piemont Consulting Bt., Lojalitás, Kecskemét, Könyvelő iroda Kecskemét, könyvelő iroda kecskemét, Lojalitás Bt. Kecskemét, könyvelő iroda, könyvelés, bérszámfejtés, beszámolók, adótanácsadás, bevallások, cégalapítás, TB ügyintézés, SZJA bevallás, hatósági ügyintézés, nyilvántartások vezetése, számviteli szabályzatok elkészítése, adó, adóbevallás, jövedelemadó, ÁFA, APEH, mérleg, eredménykimutatás, egyéni vállalkozók, társasházak könyvelése, kettős könyvvitel, Kecskemét, NYENYI">
+
         <!-- favicon -->
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <!-- bootstrap -->

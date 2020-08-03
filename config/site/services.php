@@ -16,11 +16,11 @@ return [
         'en'    => 'Company establishment with all sorts of administration processes',
         'svg_path' => '/img/icons/ugyintezes.svg'
     ],
-    [
-        'name'  => 'Társasági jogi tanácsadás',
-        'en'    => 'Company law consultancy',
-        'svg_path' => '/img/icons/jogi-tanacsadas.svg'
-    ],
+    // [
+    //     'name'  => 'Társasági jogi tanácsadás',
+    //     'en'    => 'Company law consultancy',
+    //     'svg_path' => '/img/icons/jogi-tanacsadas.svg'
+    // ],
     [
         'name'  => 'Szerződések elkészítése',
         'en'    => 'Preparing contracts',
@@ -36,11 +36,11 @@ return [
         'en'    => 'Legal translations',
         'svg_path' => '/img/icons/szakforditasok.svg'
     ],
-    [
-        'name'  => 'Műszaki tárgyú szakfordítások',
-        'en'    => 'Technical translations',
-        'svg_path' => '/img/icons/szakforditasok.svg'
-    ],
+    // [
+    //     'name'  => 'Műszaki tárgyú szakfordítások',
+    //     'en'    => 'Technical translations',
+    //     'svg_path' => '/img/icons/szakforditasok.svg'
+    // ],
     [
         'name'  => 'Tolmácsolás',
         'en'    => 'Interpreting',

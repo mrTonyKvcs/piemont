@@ -7,7 +7,7 @@
             <!-- start home-title -->
             <div class="home-title">
                 <h4>Piemont Consulting Bt.</h4>
-                <h1 style="font-weight: 300;">{{ trans('site.home-title') }}</h1>
+                <h1 style="font-weight: 300; font-size: 2.7rem;">{{ trans('site.home-title') }}</h1>
             </div>
             <!-- end home-title -->
             <!-- start home-social -->

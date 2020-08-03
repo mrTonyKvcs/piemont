@@ -18,6 +18,11 @@ Route::group(
     'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
 ], function() 
 {
+    Route::get('index.htm', function () {
+        return redirect()->route('pages.index');
+    });
+
+
     Route::get('/', 'PagesController@index')->name('pages.index');
     Route::get('/dokumentumok', 'PagesController@documents')->name('pages.documents')->middleware('auth');
 });

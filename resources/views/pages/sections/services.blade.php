@@ -1,7 +1,7 @@
 <!-- start container -->
 <div class="container">
     <!-- start row -->
-    <div class="row">
+    <div class="row justify-content-center">
         <!-- start col-lg-12 -->
         <div class="col-lg-12">
             <!-- start title -->
